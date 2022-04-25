@@ -7,7 +7,7 @@ export default function ZodiacCard ({ name, dates }) {
     <div className='zodiac-card'>
       <img src={`/images/${name}.png`} />
       <h3 className='name'>{name}</h3>
-      <h3>{dates}</h3>
+      <h5>{dates}</h5>
     </div>
   );
 }
